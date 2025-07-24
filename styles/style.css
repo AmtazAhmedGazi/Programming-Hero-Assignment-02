@@ -6,6 +6,21 @@
   font-variation-settings: "wdth" 100;
 }
 
+.noto-serif-font {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 * {
   margin: 0 0;
   padding: 0 0;
@@ -58,11 +73,17 @@ body {
 }
 /* banner styles */
 .banner {
+  margin: 120px auto;
   max-width: 1140px;
-  margin-top: 120px;
-  margin-bottom: 120px;
+  align-items: flex-end;
 }
 .banner-title {
   font-size: 4rem;
-  font-weight: 700px;
+  margin-bottom: 13px;
+}
+.banner-description {
+  font-size: 1.5rem;
+}
+.banner-img {
+  width: 100%;
 }

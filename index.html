@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flower Market</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles/style.css" />
     <script
       src="https://kit.fontawesome.com/035b988aa4.js"
@@ -13,7 +19,7 @@
   <body>
     <header>
       <nav class="navbar display-flex">
-        <img src="assets/logo.png" alt="" />
+        <img src="assets/logo.png" alt="logo" />
         <ul class="nav-links display-flex roboto-font">
           <li><a class="nav-link" id="nav-home" href="">Home</a></li>
           <li><a class="nav-link text-levender" href="">Shop</a></li>
@@ -25,12 +31,22 @@
           </li>
         </ul>
       </nav>
-      <div class="banner">
+      <div class="banner display-flex">
         <div class="banner-details">
-          <h1 class="banner-title">
-            ALWAYS <span class="text-orange">FRESH</br> FLOWERS</span>
+          <h1 class="noto-serif-font banner-title">
+            ALWAYS
+            <span class="text-orange"
+              >FRESH<br />
+              FLOWERS</span
+            >
           </h1>
+          <p class="banner-description text-light-gray">
+            Indulge your senses with the beauty and fragrance of our fresh
+            flower shop. From classic roses to exotic blooms, we offer a wide
+            variety of fresh flowers that are perfect for any occasion.
+          </p>
         </div>
+        <img class="banner-img" src="assets/hero-flower.png" alt="" />
       </div>
     </header>
     <main></main>
