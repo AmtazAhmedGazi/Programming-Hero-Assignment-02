@@ -247,7 +247,7 @@ body {
   background-color: rgba(0, 0, 0, 0.4);
   border-radius: 12px;
   max-width: 753px;
-  padding-top: 172px;
+  padding-top: 160px;
 }
 
 .single-deal-title {
@@ -262,4 +262,37 @@ body {
   color: #ffffff;
   text-align: center;
   text-decoration: underline;
+}
+
+/*  Join Section */
+.join {
+  background-image: url("../assets/news-letter-bg.png");
+  background-size: cover;
+  text-align: center;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.join-title {
+  font-size: 3.1rem;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 199px;
+  margin-bottom: 23px;
+}
+.input-container {
+  padding-bottom: 193px;
+}
+.email {
+  width: 644px;
+  padding: 15px 20px;
+  margin-right: 0px;
+}
+.submit {
+  width: 186px;
+  padding: 19px 53px;
+  margin-left: 0px;
+  background-color: #e95a08;
+  color: #ffffff;
+  border: none;
 }
