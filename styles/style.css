@@ -29,7 +29,6 @@
 body {
   background-color: #f5f8ff;
 }
-
 /* shared styles */
 
 .display-flex {
@@ -148,6 +147,7 @@ body {
 .plants-lover {
   max-width: 1140px;
   margin: 0 auto;
+  margin-bottom: 134px;
 }
 .plant-lover-details {
   justify-content: center;
@@ -167,6 +167,7 @@ body {
   margin-bottom: 20px;
 }
 .badge {
+  position: absolute;
   margin-top: -740px;
   margin-left: 350px;
 }
@@ -174,3 +175,91 @@ body {
   background: none;
   box-shadow: -4px 10px 4px rgba(0, 0, 0, 0.25);
 } */
+
+/* Latest Deal Section */
+.latest-deal {
+  margin: 0 auto;
+  max-width: 1140px;
+  margin-bottom: 120px;
+}
+.latest-deal-description {
+  max-width: 888px;
+  margin: 0 auto;
+}
+
+.latest-deal-title {
+  font-size: 3.1rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.latest-deal-details {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 120px;
+}
+
+.deals-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr) 753px;
+  gap: 28px;
+  margin-bottom: 120px;
+}
+.combo-deal {
+  max-width: 366.22px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 25px;
+}
+.first-deal {
+  background-image: url("../assets/deal-bloom.png");
+  max-width: 366.22px;
+  border-radius: 14px;
+  padding-top: 65px;
+  padding-bottom: 50px;
+}
+.combo-deal-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 22px;
+}
+.combo-deal-subtitle {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.second-deal {
+  background-image: url("../assets/deal-ana.png");
+  background-color: rgba(0, 0, 0, 0.4);
+  max-width: 366.22px;
+  border-radius: 14px;
+  padding-top: 65px;
+  padding-bottom: 50px;
+}
+
+.single-deal {
+  background-image: url("../assets/deal-zabo.png");
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 12px;
+  max-width: 753px;
+  padding-top: 172px;
+}
+
+.single-deal-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+}
+.single-deal-subtitle {
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: underline;
+}
