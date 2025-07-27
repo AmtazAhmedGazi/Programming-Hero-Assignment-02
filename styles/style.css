@@ -213,7 +213,7 @@ body {
 }
 .first-deal {
   background-image: url("../assets/deal-bloom.png");
-  max-width: 366.22px;
+
   border-radius: 14px;
   padding-top: 65px;
   padding-bottom: 50px;
@@ -235,8 +235,7 @@ body {
 
 .second-deal {
   background-image: url("../assets/deal-ana.png");
-  background-color: rgba(0, 0, 0, 0.4);
-  max-width: 366.22px;
+
   border-radius: 14px;
   padding-top: 65px;
   padding-bottom: 50px;
@@ -244,7 +243,6 @@ body {
 
 .single-deal {
   background-image: url("../assets/deal-zabo.png");
-  background-color: rgba(0, 0, 0, 0.4);
   border-radius: 12px;
   max-width: 753px;
   padding-top: 160px;
@@ -295,4 +293,114 @@ body {
   background-color: #e95a08;
   color: #ffffff;
   border: none;
+}
+/* footer */
+.footer-info {
+  font-size: 1.5rem;
+}
+.footer-container {
+  display: grid;
+  max-width: 1140px;
+  grid-template-columns: 359px 85px 128px 216px;
+  gap: 110px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+.footer-link {
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: grey;
+}
+.footer-link-logo {
+  display: flex;
+  gap: 24px;
+}
+.link-logo {
+  height: 36px;
+  width: 36px;
+}
+
+@media screen and (max-width: 576px) {
+  section,
+  .banner-title,
+  .banner-description,
+  .plant-lover-details,
+  .combo-deal,
+  .single-deal,
+  footer {
+    margin: 0 16px;
+  }
+  nav ul li {
+    display: none;
+  }
+  nav ul li:last-child {
+    display: block;
+  }
+  .navbar {
+    margin: 13px 16px 28px;
+  }
+  .banner {
+    margin-top: 0px;
+    margin-bottom: 28px;
+    flex-direction: column-reverse;
+  }
+  .banner-title {
+    font-size: 2rem;
+    margin-top: 28px;
+    margin-bottom: 13px;
+  }
+  .banner-description {
+    margin-bottom: 65px;
+  }
+  .card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .plant-lover-details {
+    flex-direction: column;
+  }
+  .badge {
+    display: none;
+  }
+  .deals-container,
+  .footer-container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+  .card-container {
+    margin-bottom: 41.5px;
+  }
+  .combo-deal {
+    max-width: 753px;
+  }
+  .single-deal {
+    padding-top: 65px;
+    padding-bottom: 50px;
+  }
+  .single-deal-title {
+    font-size: 1.1rem;
+    margin-bottom: 16px;
+  }
+  .single-deal-subtitle {
+    font-size: 1rem;
+  }
+  .email {
+    width: 218px;
+  }
+  .submit {
+    width: 103px;
+  }
+  .join .join-title {
+    font-size: 1.1rem;
+  }
+  .submit {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
 }
