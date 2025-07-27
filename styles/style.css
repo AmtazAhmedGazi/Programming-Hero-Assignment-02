@@ -87,3 +87,90 @@ body {
 .banner-img {
   width: 100%;
 }
+
+/* main section */
+/* plant section */
+.plant-title {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.plant-subtitle {
+  text-align: center;
+  max-width: 888px;
+  font-size: 1.5rem;
+  margin: 0 auto;
+  margin-bottom: 49px;
+}
+.card-container {
+  margin: 0 auto;
+  max-width: 1140px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-bottom: 210px;
+}
+.card-details {
+  max-width: 270px;
+}
+.card-image {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.card-title {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.card-value {
+  margin-bottom: 30px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.add-to-cart {
+  margin-bottom: 30px;
+  width: 100%;
+  padding: 19px 80px;
+  background-color: #e95a08;
+  color: #ffffff;
+  border: none;
+  font-size: 1rem;
+}
+
+/* Plants Lover Section */
+.plants-lover {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.plant-lover-details {
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+.plant-lover-img {
+  width: 100%;
+}
+.plant-lover-title {
+  font-size: 3.1rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.plant-lover-paragraph {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+.badge {
+  margin-top: -740px;
+  margin-left: 350px;
+}
+/* .badge-pic {
+  background: none;
+  box-shadow: -4px 10px 4px rgba(0, 0, 0, 0.25);
+} */
